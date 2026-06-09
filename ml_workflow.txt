@@ -1,0 +1,23 @@
+1. Data Collection
+Data collection is the first step in machine learning. Data is gathered from files, databases, sensors, surveys, or applications. The quality of collected data strongly affects model performance. Accurate and relevant data helps build reliable models.
+
+2. Data Cleaning
+Data cleaning removes duplicates, fixes errors, handles missing values, and standardizes formats. Clean data improves model accuracy and reduces bias. This step ensures consistency before training.
+
+3. Feature Selection
+Feature selection involves choosing the most useful input variables. Good features improve prediction accuracy and reduce model complexity. In this assignment, Study_Hours, Attendance, and Assignments are selected.
+
+4. Train-Test Split
+The dataset is divided into training and testing sets. The training set teaches the model, while the testing set evaluates performance on unseen data. This helps measure generalization.
+
+5. Model Training
+A machine learning algorithm learns relationships between features and labels. Linear Regression finds the best-fit relationship between inputs and marks. The trained model captures patterns from historical data.
+
+6. Testing
+The trained model is used to predict values for the testing dataset. Predicted values are compared with actual values. This provides an estimate of real-world performance.
+
+7. Evaluation
+Evaluation uses metrics such as MAE and R² Score. These metrics help determine how accurate and reliable the model is. Better models have lower error and higher R² values.
+
+8. Prediction
+After evaluation, the model can make predictions on new data. New feature values are provided as input. The model estimates the corresponding output based on learned patterns.
