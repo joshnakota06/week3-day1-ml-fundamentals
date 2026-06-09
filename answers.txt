@@ -21,3 +21,114 @@ R² Score measures how well the model explains the variation in the target varia
 
 3. Is your model performing well?
 Yes. If the MAE is low and the R² Score is close to 1, the model is performing well and making accurate predictions.
+
+Part 10 — Student Research Activity 
+
+1. What is Machine Learning? 
+Machine Learning (ML) is a branch of Artificial Intelligence (AI) that enables computers to 
+learn from data and make decisions or predictions without being explicitly programmed for 
+every task. Instead of following fixed rules, machine learning systems identify patterns in 
+data and use those patterns to improve their performance over time. The main goal of 
+machine learning is to build models that can generalize from historical data and make 
+accurate predictions on new, unseen data. 
+Machine learning works by providing a dataset to an algorithm. The algorithm analyzes the 
+data, learns relationships between variables, and creates a model. Once trained, the 
+model can be used for tasks such as prediction, classification, recommendation, and 
+anomaly detection. Machine learning can be broadly categorized into supervised learning, 
+unsupervised learning, and reinforcement learning. 
+Machine learning is widely used in modern technology. Examples include recommendation 
+systems on streaming platforms, fraud detection in banking, voice assistants, image 
+recognition, and self-driving vehicles. As the amount of digital data continues to grow, 
+machine learning has become an essential tool for extracting insights and automating 
+complex decision-making processes. It helps organizations improve efficiency, accuracy, 
+and customer experiences across various industries. 
+
+2. What is Linear Regression?  
+Linear Regression is one of the simplest and most used machine learning algorithms for 
+predicting numerical values. It belongs to the category of supervised learning because it 
+learns from labeled data. The purpose of linear regression is to find the relationship 
+between one or more independent variables (features) and a dependent variable (target or 
+label). 
+The algorithm works by fitting a straight line through the data points in such a way that the 
+overall prediction error is minimized. This line is known as the regression line or the line of 
+best fit.  
+In machine learning projects, linear regression is often used for predicting house prices, 
+sales revenue, salaries, stock trends, and student performance. It is easy to understand 
+and interpret because the coefficients directly indicate how much each feature affects the 
+target variable. Although it is a simple model, linear regression provides a strong 
+foundation for understanding more advanced machine learning techniques and predictive 
+analytics. 
+
+3. What are Features?  
+Features are the input variables or independent variables used by a machine learning 
+model to make predictions. They represent the characteristics, attributes, or properties of 
+the data that help the model learn patterns and relationships. Features are one of the most 
+important components of a machine learning project because the quality and relevance of 
+features significantly affect model performance. 
+For example, in a student performance prediction model, features might include Study 
+Hours, Attendance, and Assignments completed. These variables provide useful 
+information that can help predict a student's marks. Similarly, in a house price prediction 
+model, features may include the size of the house, number of bedrooms, location, and age 
+of the property. 
+Selecting the right features is known as feature selection. Good features should be 
+relevant to the problem and contribute useful information for prediction. Irrelevant or 
+redundant features can reduce accuracy and increase computational complexity. In many 
+machine learning projects, feature engineering is performed to create new features from 
+existing data. Well-designed features allow the algorithm to learn meaningful patterns 
+more effectively, resulting in better predictions and improved model performance.
+
+4. What are Labels? 
+Labels are the output values or target variables that a machine learning model is trained to 
+predict. In supervised learning, each training example consists of features and a 
+corresponding label. The model learns the relationship between the features and labels so 
+that it can predict labels for new data in the future. 
+For example, in a student performance dataset, Study Hours, Attendance, and 
+Assignments are features, while Marks represent the label. The model analyzes how 
+changes in the features affect the marks and uses this information to make predictions. 
+Similarly, in a house price prediction system, property details are features, and the house 
+price is the label. 
+Labels provide the correct answers that guide the learning process. Without labels, 
+supervised machine learning algorithms would not know what outcomes they should learn 
+to predict. The quality and accuracy of labels are critical because incorrect labels can lead 
+to poor model performance. Labels can be numerical values, such as prices or scores, or 
+categories, such as "spam" and "not spam." They serve as the foundation for training 
+predictive models and evaluating how accurately those models perform.
+
+5. What is the Difference Between Training Data and Testing Data? 
+Training data and testing data are two important parts of a machine learning dataset. They 
+serve different purposes during model development and evaluation. Training data is the 
+portion of the dataset used to teach the machine learning model. During the training 
+phase, the algorithm analyzes the training data, identifies patterns, and learns 
+relationships between features and labels. 
+Testing data, on the other hand, is used after training to evaluate how well the model 
+performs on unseen data. The testing dataset is not shown to the model during training. 
+This separation helps determine whether the model can generalize its learning beyond the 
+examples it has already seen. 
+A common practice is to split the dataset into 80% training data and 20% testing data, 
+although other ratios such as 70-30 are also used. If a model performs well on training data 
+but poorly on testing data, it may be overfitting. Overfitting occurs when the model 
+memorizes the training examples instead of learning general patterns. 
+Using separate training and testing datasets helps provide a realistic measure of model 
+performance and ensures that predictions remain reliable when applied to real-world data. 
+
+6. Where is Machine Learning Used in Real Life?  
+Machine learning is used extensively in many industries and everyday applications. One of 
+the most common uses is recommendation systems. Streaming services and online 
+shopping platforms use machine learning to recommend movies, music, and products 
+based on user preferences and behavior. These recommendations improve customer 
+engagement and satisfaction. 
+In the banking and finance sector, machine learning helps detect fraudulent transactions 
+by identifying unusual spending patterns. Healthcare organizations use machine learning 
+to analyze medical records, assist in disease diagnosis, and predict patient outcomes. In 
+transportation, machine learning powers navigation systems, traffic prediction, and 
+autonomous vehicles. 
+Machine learning is also widely used in natural language processing applications such as 
+chatbots, voice assistants, and language translation systems. Social media platforms use 
+machine learning to personalize content, detect harmful behavior, and recommend 
+connections. Manufacturing companies apply machine learning for predictive 
+maintenance to identify equipment failures before they occur. 
+Additionally, machine learning plays a major role in cybersecurity, agriculture, education, 
+marketing, and scientific research. As technology advances and more data becomes 
+available, machine learning continues to transform industries by improving efficiency, 
+automating tasks, reducing costs, and enabling data-driven decision-making across a wide 
+range of real-world applications.
